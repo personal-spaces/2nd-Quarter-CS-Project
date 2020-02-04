@@ -1,0 +1,203 @@
+body {
+	font-size: 13px;
+	font-family: Raleway, sans-serif, "Montserrat Regular";
+	background-color: white;
+	color:  #00B800;
+	margin: auto;
+}
+
+@font-face{
+	src: url(fonts/raleway/raleway-black.tff);
+	font-family: Raleway;
+}
+
+.nav{
+	margin-bottom: 10px;
+}
+
+.pie, .kermit{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.kermit {
+	font-size: 25px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.plants{
+	position: relative;
+	max-height: 100%;
+}
+
+a {
+	color: white;
+}
+
+a:hover{
+	color: #00B800;
+	background-color: white;
+}
+
+.iconbr {
+	position: absolute;
+	top: 25%;
+	left: 45%;
+	justify-content: center;
+	text-align: center;
+
+	background-color: white;
+	opacity: 0.6;
+	padding: 20px;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+
+.iconbr .hidden{
+	opacity: 1;
+}
+
+.front:hover{
+	opacity: 0;
+}
+
+.hugequote{
+	position: absolute;
+	bottom: 0;
+	background-color: white;
+	font-size: 135px;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	height: 50%;
+	
+	opacity: 0.8;
+	color: grey;
+	padding: 18px;
+	font-family: Tangerine;
+}
+
+
+.alert{
+	max-width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.contact1{
+	background: white;
+}
+
+.container-contact1{
+	border: 5px solid #00B800;
+}
+
+.card{
+	text-align: center;
+	font-family: Raleway, sans-serif, "Montserrat Regular";
+	top: 50%:
+	left: 50%;
+}
+
+.card p, .card-header {
+	font-family: Raleway, "Montserrat Regular";
+}
+
+.kermit{
+	padding: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.card-img-top-k {
+	background-color: white;
+	padding: 20px;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+
+.kermit .card-text{
+	font-size: 18px;
+}
+
+.kermit .card-title{
+	font-size: 25px;
+}
+
+.hiddenp{
+	display: none;
+}
+
+.pagination {
+	color: #00B800;
+	background-color: 
+}
+
+.nopage {
+	font-size: 80px;
+	text-align: center;
+	padding: 60px;
+	margin: 45px;
+}
+
+.page-item a {
+	color: #00B800;
+	background-color: white;
+}
+
+.page-item.active .page-link{
+	background-color: #00B800;
+}
+
+.page-link:hover{
+	background-color: #00B800;
+	color: white;
+}
+
+.kermit .btn{
+	color: white;
+}
+
+footer {
+	font-size: 10px;
+	color: #D8D8D8;
+	background-color: #fff;
+	padding: 10px;
+	position: absolute;
+}
+
+@media screen and (max-width: 769px){
+	img {
+		height: 100%;
+	}
+	
+	.plants{
+		margin: auto;
+	}
+	
+	.iconbr{
+		top: 20%;
+		left: 33%;
+	}
+	
+	.hugequote {
+		position: relative;
+		font-size: 40px;
+		justify-content: center;
+	}
+	
+	.hiddenp{
+		display: flex;
+	}
+	
+	.pie {
+		display: none;
+	}
+	footer {
+		position: relative;
+	}
+}
